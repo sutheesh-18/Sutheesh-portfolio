@@ -277,118 +277,63 @@ export function Experience() {
                     max-w-5xl
                   "
                 >
-                  Developed practical projects involving web development,
-                  machine learning, cybersecurity, threat detection,
-                  and database management. Each project has helped me
-                  strengthen my programming and problem-solving skills.
+                  Developed practical applications involving EV charging
+                  infrastructure, web development, machine learning,
+                  cybersecurity, and database management. These projects
+                  help me apply technical knowledge to real-world problems.
                 </p>
 
                 {/* Project Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-6">
+                
+{/* Project Cards */}
+<div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-6">
 
-                  {/* Project 1 */}
-                  <div
-                    className="
-                      group/project
-                      p-4
-                      rounded-lg
-                      bg-[#1E2225]
-                      border
-                      border-[#2B2E31]
-                      hover:border-[#C58B55]/50
-                      transition-colors
-                    "
-                  >
-                    <p className="text-[#C58B55] font-mono text-xs">
-                      01
-                    </p>
+  {/* Project 1 */}
+  <div className="group/project p-4 rounded-lg bg-[#1E2225] border border-[#2B2E31] hover:border-[#C58B55]/50 transition-colors">
+    <p className="text-[#C58B55] font-mono text-xs">01</p>
+    <p className="mt-2 text-sm text-[#E6E1D8] group-hover/project:text-[#C58B55] transition-colors">
+      EV Charging System
+    </p>
+    <p className="mt-1 text-xs text-[#6F7377]">
+      EV Station Discovery & Booking
+    </p>
+  </div>
 
-                    <p
-                      className="
-                        mt-2
-                        text-sm
-                        text-[#E6E1D8]
-                        group-hover/project:text-[#C58B55]
-                        transition-colors
-                      "
-                    >
-                      Internet Border Patrol
-                    </p>
+  {/* Project 2 */}
+  <div className="group/project p-4 rounded-lg bg-[#1E2225] border border-[#2B2E31] hover:border-[#C58B55]/50 transition-colors">
+    <p className="text-[#C58B55] font-mono text-xs">02</p>
+    <p className="mt-2 text-sm text-[#E6E1D8] group-hover/project:text-[#C58B55] transition-colors">
+      Internet Border Patrol
+    </p>
+    <p className="mt-1 text-xs text-[#6F7377]">
+      URL Safety & Threat Detection
+    </p>
+  </div>
 
-                    <p className="mt-1 text-xs text-[#6F7377]">
-                      URL Safety & Threat Detection
-                    </p>
-                  </div>
+  {/* Project 3 */}
+  <div className="group/project p-4 rounded-lg bg-[#1E2225] border border-[#2B2E31] hover:border-[#C58B55]/50 transition-colors">
+    <p className="text-[#C58B55] font-mono text-xs">03</p>
+    <p className="mt-2 text-sm text-[#E6E1D8] group-hover/project:text-[#C58B55] transition-colors">
+      Scam Prevention Assistant
+    </p>
+    <p className="mt-1 text-xs text-[#6F7377]">
+      AI & Cybersecurity
+    </p>
+  </div>
 
-                  {/* Project 2 */}
-                  <div
-                    className="
-                      group/project
-                      p-4
-                      rounded-lg
-                      bg-[#1E2225]
-                      border
-                      border-[#2B2E31]
-                      hover:border-[#C58B55]/50
-                      transition-colors
-                    "
-                  >
-                    <p className="text-[#C58B55] font-mono text-xs">
-                      02
-                    </p>
+  {/* Project 4 */}
+  <div className="group/project p-4 rounded-lg bg-[#1E2225] border border-[#2B2E31] hover:border-[#C58B55]/50 transition-colors">
+    <p className="text-[#C58B55] font-mono text-xs">04</p>
+    <p className="mt-2 text-sm text-[#E6E1D8] group-hover/project:text-[#C58B55] transition-colors">
+      Rental House System
+    </p>
+    <p className="mt-1 text-xs text-[#6F7377]">
+      PHP & MySQL
+    </p>
+  </div>
 
-                    <p
-                      className="
-                        mt-2
-                        text-sm
-                        text-[#E6E1D8]
-                        group-hover/project:text-[#C58B55]
-                        transition-colors
-                      "
-                    >
-                      Scam Prevention Assistant
-                    </p>
+</div>
 
-                    <p className="mt-1 text-xs text-[#6F7377]">
-                      AI & Cybersecurity
-                    </p>
-                  </div>
-
-                  {/* Project 3 */}
-                  <div
-                    className="
-                      group/project
-                      p-4
-                      rounded-lg
-                      bg-[#1E2225]
-                      border
-                      border-[#2B2E31]
-                      hover:border-[#C58B55]/50
-                      transition-colors
-                    "
-                  >
-                    <p className="text-[#C58B55] font-mono text-xs">
-                      03
-                    </p>
-
-                    <p
-                      className="
-                        mt-2
-                        text-sm
-                        text-[#E6E1D8]
-                        group-hover/project:text-[#C58B55]
-                        transition-colors
-                      "
-                    >
-                      Rental House System
-                    </p>
-
-                    <p className="mt-1 text-xs text-[#6F7377]">
-                      PHP & MySQL
-                    </p>
-                  </div>
-
-                </div>
               </div>
             </div>
 

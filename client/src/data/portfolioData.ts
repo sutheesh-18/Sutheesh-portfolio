@@ -87,120 +87,145 @@ export const portfolioData = {
     },
   ] satisfies NavLink[],
 
-  skills: [
-    {
-      category: "Programming",
-      skills: [
-        "Python",
-        "Java",
-        "JavaScript",
-        "SQL",
-        "PHP",
-      ],
-    },
+  
+skills: [
+  {
+    category: "Programming",
+    skills: [
+      "Python",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+    ],
+  },
+  {
+    category: "Web Development",
+    skills: [
+      "HTML",
+      "CSS",
+      "React",
+      "Tailwind CSS",
+      "Flask",
+      "FastAPI",
+      "REST APIs",
+    ],
+  },
+  {
+    category: "AI / Data",
+    skills: [
+      "Machine Learning",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "AI tools & Concepts",
+    ],
+  },
+  {
+    category: "Database & Tools",
+    skills: [
+      "PostgreSQL",
+      "MySQL",
+      "SQLite",
+      "MongoDB",
+      "GitHub",
+      "VS Code",
+    ],
+  },
+] satisfies SkillCategory[],
 
-    {
-      category: "Web Development",
-      skills: [
-        "HTML",
-        "CSS",
-        "React",
-        "Flask",
-        "REST APIs",
-      ],
-    },
+  
+projects: [
+  {
+    id: "ev-charging-system",
 
-    {
-      category: "AI / Data",
-      skills: [
-        "Machine Learning",
-        "Scikit-learn",
-        "Pandas",
-        "NumPy",
-        "AI Tools & Concepts",
-      ],
-    },
+    title: "EV Charging System",
 
-    {
-      category: "Database & Tools",
-      skills: [
-        "MySQL",
-        "PostgreSQL",
-        "SQLite",
-        "MongoDB",
-        "Git",
-        "GitHub",
-      ],
-    },
-  ] satisfies SkillCategory[],
+    description:
+      "A web-based EV charging platform that helps electric vehicle users discover nearby charging stations, explore charger details, check availability, and book charging slots through a single application.",
 
-  projects: [
-    {
-      id: "internet-border-patrol",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "REST API",
+    ],
 
-      title: "Internet Border Patrol",
+    githubUrl:
+      "https://github.com/sutheesh-18/EV-Charging-System",
 
-      description:
-        "A URL safety analyzer for checking suspicious URLs using machine learning and threat-intelligence services.",
+    liveUrl: undefined,
+  },
 
-      technologies: [
-        "Python",
-        "Flask",
-        "Machine Learning",
-        "VirusTotal",
-        "JavaScript",
-      ],
+  {
+    id: "internet-border-patrol",
 
-      githubUrl:
-        "https://github.com/sutheesh-18/Internet-Border-Patrol",
+    title: "Internet Border Patrol",
 
-      liveUrl: undefined,
-    },
+    description:
+      "A URL safety analyzer for checking suspicious URLs using machine learning and threat-intelligence services.",
 
-    {
-      id: "scam-prevention",
+    technologies: [
+      "Python",
+      "Flask",
+      "Machine Learning",
+      "VirusTotal",
+      "JavaScript",
+    ],
 
-      title: "AI-Powered Digital Scam Prevention Assistant",
+    githubUrl:
+      "https://github.com/sutheesh-18/Internet-Border-Patrol",
 
-      description:
-        "A cybersecurity-focused application concept for analyzing suspicious digital content and presenting understandable risk information.",
+    liveUrl: undefined,
+  },
 
-      technologies: [
-        "Python",
-        "Flask",
-        "Machine Learning",
-        "NLP",
-        "SQLite",
-      ],
+  {
+    id: "scam-prevention",
 
-      githubUrl:
-        "https://github.com/sutheesh-18/scam-prevention",
+    title: "AI-Powered Digital Scam Prevention Assistant",
 
-      liveUrl: undefined,
-    },
+    description:
+      "A cybersecurity-focused application concept for analyzing suspicious digital content and presenting understandable risk information.",
 
-    {
-      id: "rental-house-management",
+    technologies: [
+      "Python",
+      "Flask",
+      "Machine Learning",
+      "NLP",
+      "SQLite",
+    ],
 
-      title: "Rental House Management System",
+    githubUrl:
+      "https://github.com/sutheesh-18/scam-prevention",
 
-      description:
-        "A web application for managing rental properties, tenants, and related records.",
+    liveUrl: undefined,
+  },
 
-      technologies: [
-        "PHP",
-        "MySQL",
-        "HTML",
-        "CSS",
-        "JavaScript",
-      ],
+  {
+    id: "rental-house-management",
 
-      githubUrl:
-        "https://github.com/sutheesh-18/rental_house",
+    title: "Rental House Management System",
 
-      liveUrl: undefined,
-    },
-  ] as Project[],
+    description:
+      "A web application for managing rental properties, tenants, and related records.",
+
+    technologies: [
+      "PHP",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+
+    githubUrl:
+      "https://github.com/sutheesh-18/rental_house",
+
+    liveUrl: undefined,
+  },
+] as Project[],
+
 
   experience: [] as ExperienceItem[],
 };
